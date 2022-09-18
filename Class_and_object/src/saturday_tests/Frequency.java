@@ -8,14 +8,13 @@ public static void main(String[] args) {
 	System.out.println("Enter any number");
 	int num=s.nextInt();
 
-	int i,digit,digit1,freq=0;
-	for(i=0;i<=9;i++)
+	for(int i=0;i<=9;i++)
 	{
 		int num1=num;
-		freq=0;
+		int freq=0;
 		for(;num1!=0;)
 		{
-			digit1=num1%10;
+			int digit1=num1%10;
 			
 			
 			if(digit1==i)
